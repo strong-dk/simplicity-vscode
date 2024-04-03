@@ -1,11 +1,11 @@
 {
-  "name": "CobaltNext",
-  "displayName": "Cobalt Next",
-  "description": "If Oceanic Next and Cobalt2 made a baby in the form of a theme for VSCode.",
-  "version": "0.4.5",
-  "publisher": "dline",
+  "name": "Simplicity",
+  "displayName": "Simplicity theme",
+  "description": "Slightly revised Cobalt Next theme",
+  "version": "0.0.1",
+  "publisher": "strong-dk",
   "engines": {
-    "vscode": "^1.17.0"
+    "vscode": "^1.87.0"
   },
   "categories": [
     "Themes"
@@ -13,24 +13,24 @@
   "icon": "images/preview.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/davidleininger/cobaltnext-vscode.git"
+    "url": "https://https://github.com/strong-dk/simplicity-vscode.git"
   },
   "contributes": {
     "themes": [
       {
-        "label": "Cobalt Next",
+        "label": "Simplicity",
         "uiTheme": "vs-dark",
-        "path": "./themes/CobaltNext.json"
+        "path": "./themes/Simplicity.json"
       },
       {
-        "label": "Cobalt Next Dark",
+        "label": "Simplicity Dark",
         "uiTheme": "vs-dark",
-        "path": "./themes/CobaltNext-Dark.json"
+        "path": "./themes/Simplicity-Dark.json"
       },
       {
-        "label": "Cobalt Next Minimal",
+        "label": "Simplicity Minimal",
         "uiTheme": "vs-dark",
-        "path": "./themes/CobaltNext-Minimal.json"
+        "path": "./themes/Simplicity-Minimal.json"
       }
     ]
   }
