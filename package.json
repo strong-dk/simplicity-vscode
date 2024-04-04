@@ -2,7 +2,7 @@
   "name": "Simplicity",
   "displayName": "Simplicity theme",
   "description": "Slightly revised Cobalt Next theme",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "strong-dk",
   "engines": {
     "vscode": "^1.87.0"

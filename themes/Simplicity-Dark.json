@@ -380,7 +380,8 @@
         "meta.block-level"
       ],
       "settings": {
-        "foreground": "#5a9bcf"
+        "foreground": "#80dfff",
+        "fontStyle": "bold"
       }
     },
     {
@@ -435,7 +436,8 @@
         "markup.changed.git_gutter"
       ],
       "settings": {
-        "foreground": "#FAC863"
+        "foreground": "#FAC863",
+        "fontStyle": "bold"
       }
     },
     {
@@ -455,7 +457,7 @@
         "variable.language"
       ],
       "settings": {
-        "fontStyle": "italic",
+        "fontStyle": "bold",
         //"foreground": "#ed6f7d" - D-Line Preference Edit
         "foreground": "#c5a5c5"
       }

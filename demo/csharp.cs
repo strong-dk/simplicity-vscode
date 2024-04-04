@@ -1,30 +1,48 @@
-using System.Globalization;
-using System.Xml;
+using System;
+using System.Net.Http;
+using System.Threading.Tasks;
 
-namespace MySuperApp.Demo123;
-
-static void Main(string[] args)
+public class WeatherFetcher
 {
-    using var client = new HttpClient();
-    client.BaseAddress = new Uri(url);
-    // Add an Accept header for JSON format.
-    client.DefaultRequestHeaders.Accept.Add(
-       new MediaTypeWithQualityHeaderValue("application/json"));
-    // Get data response
-    var response = client.GetAsync(urlParameters).Result;
-    if (response.IsSuccessStatusCode)
-    {
-        // Parse the response body
-        var dataObjects = response.Content
-                       .ReadAsAsync<IEnumerable<DataObject>>().Result;
-        foreach (var d in dataObjects)
-        {
-            Console.WriteLine("{0}", d.Name);
-        }
+  private readonly string apiKey;
+  private readonly string apiUrl;
+
+  public WeatherFetcher(string apiKey) {
+    this.apiKey = apiKey;
+    this.apiUrl = "http://api.openweathermap.org/data/2.5/weather?q=Copenhagen&appid=" + apiKey;
+  }
+
+  public async Task<WeatherData> GetWeatherAsync() {
+
+    using (var httpClient = new HttpClient()) {
+
+      try {
+        HttpResponseMessage response = await httpClient.GetAsync(apiUrl);
+        response.EnsureSuccessStatusCode();
+        string responseBody = await response.Content.ReadAsStringAsync();
+        WeatherData weatherData = WeatherData.FromJson(responseBody);
+        return weatherData;
+      }
+      catch (HttpRequestException ex) {
+        Console.WriteLine($"Error fetching weather data: {ex.Message}");
+        throw;
+      }
+
     }
-    else
-    {
-        Console.WriteLine("{0} ({1})", (int)response.StatusCode,
-                      response.ReasonPhrase);
-    }
+
+  }
+}
+
+public class WeatherData {
+  public MainData Main { get; set; }
+  public string Name { get; set; }
+
+  public static WeatherData FromJson(string json) =>
+    System.Text.Json.JsonSerializer.Deserialize<WeatherData>(json);
+
+}
+
+public class MainData {
+  public float Temp { get; set; }
+  public int Humidity { get; set; }
 }

@@ -1,14 +1,14 @@
 # Simplicity Theme for VS Code
-Basically this is the [CobaltNext theme](https://github.com/davidleininger/cobaltnext-vscode) with some slightly brighter fonts. All credits to the original author.
+Basically this is the [CobaltNext theme](https://github.com/davidleininger/cobaltnext-vscode) with some slightly brighter fonts. All credits to the original authors.
 
 ### Original Version - "Simplicity Next"
-![Screenshot Original](https://raw.githubusercontent.com/strong-dk/simplicity-vscode/master/images/Simplicity.png)
+![Screenshot Original](https://github.com/strong-dk/simplicity-vscode/blob/master/images/simplicity.png?raw=true)
 
 ### Dark Version - "Simplicity Dark"
-![Screenshot Dark](https://raw.githubusercontent.com/strong-dk/simplicity-vscode/master/images/Simplicity-dark.png)
+![Screenshot Dark](https://github.com/strong-dk/simplicity-vscode/blob/master/images/simplicity-dark.png?raw=true)
 
 ### Minimal Version - "Simplicity Minimal"
-![Screenshot Minimal](https://raw.githubusercontent.com/strong-dk/simplicity-vscode/master/images/Simplicity-minimal.png)
+![Screenshot Minimal](https://github.com/strong-dk/simplicity-vscode/blob/master/images/simplicity-minimal.png?raw=true)
 *This one is not super different from `Simplicity Dark`, but it has a few extra treats to clean things up a bit.
 
 # Installation
@@ -21,3 +21,4 @@ Basically this is the [CobaltNext theme](https://github.com/davidleininger/cobal
   - Try the dark version with **Simplicity Dark**.
   - Try the minimal version with **Simplicity Minimal**. 
 6. Optional: Use the recommended settings below for best experience
+  - Install the [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) from Philipp Kief
