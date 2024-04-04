@@ -2,13 +2,13 @@
 Basically this is the [CobaltNext theme](https://github.com/davidleininger/cobaltnext-vscode) with some slightly brighter fonts. All credits to the original author.
 
 ### Original Version - "Simplicity Next"
-![Screenshot Original](https://raw.githubusercontent.com/strong-dk/simplicity-vscode/master/images/Simplicity.png)
+![Screenshot Original](https://github.com/strong-dk/simplicity-vscode/blob/master/images/simplicity.png?raw=true)
 
 ### Dark Version - "Simplicity Dark"
-![Screenshot Dark](https://raw.githubusercontent.com/strong-dk/simplicity-vscode/master/images/Simplicity-dark.png)
+![Screenshot Dark](https://github.com/strong-dk/simplicity-vscode/blob/master/images/simplicity-dark.png?raw=true)
 
 ### Minimal Version - "Simplicity Minimal"
-![Screenshot Minimal](https://raw.githubusercontent.com/strong-dk/simplicity-vscode/master/images/Simplicity-minimal.png)
+![Screenshot Minimal](https://github.com/strong-dk/simplicity-vscode/blob/master/images/simplicity-minimal.png?raw=true)
 *This one is not super different from `Simplicity Dark`, but it has a few extra treats to clean things up a bit.
 
 # Installation
