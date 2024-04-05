@@ -359,7 +359,8 @@
     {
       "scope": "keyword.control",
       "settings": {
-          "foreground": "#ed6f7d"
+          "foreground": "#ed6f7d",
+          "fontStyle": "bold"
       }
     },
     {
@@ -391,8 +392,10 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#5FB3B3"
+        "foreground": "#5FB3B3",
+        "fontStyle": "bold"
       }
+
     },
     {
       "name": "Tag",
@@ -456,7 +459,8 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#fac863"
+        "foreground": "#fac863",
+        "fontStyle": "bold"
       }
     },
     {

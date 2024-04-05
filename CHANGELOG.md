@@ -1,7 +1,11 @@
 # Change Log
 
+### [1.0.1 - 1.0.2] - 2024-04-05
+- Bold fonts for some colors to improve readabilty
+
+
 ### [0.1.1] - 2024-04-04
-Minor adjustments.
+Adjustments to the Cobalt Next theme
 - Lighter font for inactive items in sidebar and tabs.
 - Brighter font for methods
 - Variable color changed to blue
@@ -11,5 +15,4 @@ Minor adjustments.
 
 
 ### [0.0.1] - 2024-04-04
-
 Initial release.
