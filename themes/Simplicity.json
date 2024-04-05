@@ -319,7 +319,36 @@
         "variable"
       ],
       "settings": {
-        "foreground": "#CDD3DE"
+        "foreground": "#5a9bcf"
+      }
+    },
+    {
+      "scope": "entity.name.type.enum",
+      "settings": {
+        "foreground": "#C1DCBE",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": "entity.name.type.interface",
+      "settings": {
+          "foreground": "#ed6f7d",
+          "fontStyle": "bold"
+      }
+    },
+    {
+      "scope": [
+        "variable.other.readwrite.cs",
+        "support.type.property-name.json"
+      ],
+      "settings": {
+          "foreground": "#d8dee9"
+      }
+    },
+    {
+      "scope": "keyword.control",
+      "settings": {
+          "foreground": "#ed6f7d"
       }
     },
     {
@@ -416,7 +445,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#99C794"
+        "foreground": "#fac863"
       }
     },
     {
